@@ -1,0 +1,6 @@
+executing-> select work_year, experience_level, employment_type, job_title, salary_in_usd FROM default.ds_salaries_csv where experience_level='EN' ORDER BY work_year DESC LIMIT 5
+Row(work_year='2022', experience_level='EN', employment_type='FT', job_title='Data Engineer', salary_in_usd='52351')
+Row(work_year='2022', experience_level='EN', employment_type='FT', job_title='Computer Vision Engineer', salary_in_usd='125000')
+Row(work_year='2022', experience_level='EN', employment_type='FT', job_title='Data Engineer', salary_in_usd='45807')
+Row(work_year='2022', experience_level='EN', employment_type='FT', job_title='Machine Learning Engineer', salary_in_usd='37300')
+Row(work_year='2022', experience_level='EN', employment_type='FT', job_title='ML Engineer', salary_in_usd='21983')
